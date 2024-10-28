@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.gallery {
+    border: 1px solid black;
+    float: left;
+    width: auto;
+    margin: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.gallery:hover {
+    border: 1px solid grey;
+}
+
+.gallery img:hover {
+    border-bottom: 1px solid grey;
+}
+
+.recipe-index {
+    padding: 5px;
+}
+
+.gallery img {
+    border-bottom: 1px solid black;
+}
